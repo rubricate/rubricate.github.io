@@ -1,4 +1,4 @@
-# rubricate PHP
+# Rubricate PHP
 
 Set of reusable PHP components
 
