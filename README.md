@@ -2,4 +2,4 @@
 
 Set of reusable PHP components
 
- - Repository [GitHub](https://github.com/rubricate)
+https://rubricate.github.io
