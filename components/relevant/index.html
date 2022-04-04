@@ -16,6 +16,11 @@
 
             gtag('config', 'G-ZHEGW78FJH');
         </script>
+        <style type="text/css" media="all">
+            .ct_directory_structure li {
+               margin-left: 25px 
+            }
+        </style>
     </head>
     <body>
         <div class="expand bg_prm">
@@ -79,22 +84,103 @@
                 
             </div>
 
-            <div class="fold">
-                <h1 class="mb_1">Example</h1>
-                    <div class="expand mb_1">
-                        Under construction
+                <div class="fold">
+                <h1 class="mb_1">Basic Structure</h1>
+
+                <div class="expand">
+                    <div class="fold">
+
+                <ul class="ct_directory_structure">
+                <li>
+                        <div class="tx_b"><i class="fa-solid fa-folder-open"></i> my-project</div>
+                <ul>
+                    <li>
+                        <div class="tx_b"><i class="fa-solid fa-folder-open"></i> src</div>
+                        <ul>
+                            <li>
+                                <div class="tx_b"><i class="fa-solid fa-folder-open"></i> Controller</div>
+                                <ul>
+                                    <li>Index.php</li>
+                                </ul>    
+                            </li>
+                            <li>
+                                <div class="tx_b"><i class="fa-solid fa-folder-open"></i> view</div>
+                                <ul>
+                                    <li>index.php</li>
+                                </ul>    
+                        </ul>    
+                    </li>
+                    <li>
+                        <div class="tx_b"><i class="fa-solid fa-folder-open"></i> www</div>
+                        <ul>
+                            <li>index.php</li>
+                            <li>.htaccess</li>
+                        </ul>    
+                    </li>
+                </ul>
+                </li>
+                </ul>    
+
+
                     </div>
 
-                        <div class="row">
-                            <div class="gr gr_md_static fl_c">
-                                <a href="https://github.com/rubricate/relevant" class="lk_prm"> 
-                                    <i class="fa-solid fa-code-compare"></i> See Repository
-                                </a>
-                            </div>
-                        </div>
-                </ul>
-            </div>
 
+                <div class="fold">
+                    <h2>www/.htaccess</h2>
+                    <script src="https://gist.github.com/estefanionsantos/7a049045ab8a48dc9b17782c3e7c4889.js"></script>
+                </div>
+
+                <div class="fold">
+                    <h2>Composer</h2>
+                    <p class="mb_1">
+                    execute o: $ <span class="tx_b">composer dump-autoload</span>
+                    </p>
+                    <p>
+                    Note: required <span class="tx_b">mod_rewrite</span> enabled
+                    </p>
+                </div>
+
+                <div class="fold">
+                    <h2>Auto-load PSR-4</h2>
+                <div class="expand mb_1">
+                    <div class="row">
+                        <div class="gr gr_6 gr_md_12">
+                            Let's use the PSR-4 pattern in a PHP project through the Composer dependency manager itself. 
+                            In the <strong class="tx_scn">composer.json</strong> file we configure the vendor namespace 
+                            and the main folder from where the sub-namespaces will be created:
+                        </div>
+                    </div>
+                </div>
+                <div class="expand">
+                <script src="https://gist.github.com/estefanionsantos/16e73caef60316f60e109165939c8df7.js"></script>
+                </div>
+                </div>
+
+
+                <div class="fold">
+                    <h2>src/Controller/Index.php</h2>
+                <script src="https://gist.github.com/estefanionsantos/63f770e88de6b5b51c7e3d0117ce0437.js"></script>
+                </div>
+
+                <div class="fold">
+                    <h2>src/view/index.php</h2>
+                    <script src="https://gist.github.com/estefanionsantos/9cceebb6557f463dacac2d0e1d007f3e.js"></script>
+                </div>
+
+                <div class="fold">
+                    <h2>www/index.php</h2>
+                    <script src="https://gist.github.com/estefanionsantos/d088c2cc4dd962622b6d16554bbeacf3.js"></script>
+                </div>
+
+                <div class="fold">
+                    <h1>URL</h1>
+                    http://localhost/my-project/www/
+                </div>
+
+                </div>
+
+                </ul>
+                </div>
         </div>
 
                 <div class="fold">
