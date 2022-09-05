@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://dobokcss.github.io/v/0.24.0/css/reset.min.css" type="text/css" media="all" />
         <link rel="stylesheet" href="https://dobokcss.github.io/v/0.24.0/css/style.min.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="../../asset/css/custom.css" type="text/css" media="all" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" type="text/css" media="all" />
 
         <title>Wasp | Rubricate</title>
@@ -117,12 +118,23 @@
             <div class="fold">
                 <h1 class="mb_1">File result</h1>
                     <div class="expand mb_1">
-                        <div class="bg_lgh tx_md mb_1 pp_1 fl_l">
+                        <div class="shell_bg fl_l">
                             <ul class="lt_y">
-                                <li>$ cd /path/to/directory/logs/</li>
-                                <li>&nbsp; /path/to/directory/logs/$ ls</li>
-                                <li>&nbsp; dev_2022-09-20.txt</li>
-                                <li>&nbsp; /path/to/directory/logs/$ vim dev_2022-09-02.txt</li>
+                                <li>
+                                    <span class="shell_dolar">$</span> 
+                                    cd /path/to/directory/logs/
+                                </li>
+                                <li>
+                                    <span class="shell_dir">/path/to/directory/logs/</span>
+                                    <span class="shell_dolar">$</span>
+                                    ls
+                                </li>
+                                <li>dev_2022-09-20.txt</li>
+                                <li>
+                                    <span class="shell_dir">/path/to/directory/logs/</span>
+                                    <span class="shell_dolar">$</span>
+                                    vim dev_2022-09-20.txt
+                                </li>
                             </ul>
                         </div>
                     </div>
