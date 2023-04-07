@@ -121,17 +121,18 @@
                         <div class="shell_bg fl_l">
                             <ul class="lt_y">
                                 <li>
+                                    <span class="shell_tilde">~</span> 
                                     <span class="shell_dolar">$</span> 
                                     cd /path/to/directory/logs/
                                 </li>
                                 <li>
-                                    <span class="shell_dir">/path/to/directory/logs/</span>
+                                    :<span class="shell_dir">/path/to/directory/logs/</span>
                                     <span class="shell_dolar">$</span>
                                     ls
                                 </li>
                                 <li>dev_2022-09-20.txt</li>
                                 <li>
-                                    <span class="shell_dir">/path/to/directory/logs/</span>
+                                    :<span class="shell_dir">/path/to/directory/logs/</span>
                                     <span class="shell_dolar">$</span>
                                     vim dev_2022-09-20.txt
                                 </li>
@@ -146,7 +147,56 @@
                 </div>
             </div>
 
+            <div class="fold">
+                <h1 class="mb_1">Change file extension</h1>
+                    <div class="expand mb_1">
+                        <ul class="lt_y">
+                            <li class="mb_1">Use static property <b class="tx_b">$ex</b> (available in version 0.4.0)</li>
+                            <li class="mb_1">Example on line 7: <b class="tx_b">protected static $ex = '.log';</b></li>
+                        </ul>    
+                        
+                    </div>
+
+                <div class="row">
+                    <div class="gr gr_12">
+                        <script src="https://gist.github.com/estefanionsantos/05483e403ef62532a009bfafd55aad26.js"></script>
+                    </div>
+                </div>
+            </div>
+            <div class="fold">
+                <h1 class="mb_1">File result with .log extension</h1>
+                    <div class="expand mb_1">
+                        <div class="shell_bg fl_l">
+                            <ul class="lt_y">
+                                <li>
+                                    <span class="shell_tilde">~</span> 
+                                    <span class="shell_dolar">$</span> 
+                                    cd /path/to/directory/logs/
+                                </li>
+                                <li>
+                                    :<span class="shell_dir">/path/to/directory/logs/</span>
+                                    <span class="shell_dolar">$</span>
+                                    ls
+                                </li>
+                                <li>dev_2023-09-20.log</li>
+                                <li>
+                                    :<span class="shell_dir">/path/to/directory/logs/</span>
+                                    <span class="shell_dolar">$</span>
+                                    vim dev_2023-09-20.log
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                <div class="row">
+                    <div class="gr gr_12">
+                        <script src="https://gist.github.com/estefanionsantos/1964608b63c43864e712157086ce0582.js"></script>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
 
                 <div class="fold">
                     <div class="container">

@@ -5,6 +5,6 @@
 }
 
 .shell_dolar { color: #0a5901 }
-.shell_dir { color: #054f93 }
+.shell_dir, .shell_tilde { color: #054f93; font-weight: bold }
 
 
