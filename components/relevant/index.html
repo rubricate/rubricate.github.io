@@ -134,15 +134,11 @@
                 <div class="fold">
                     <h2>www/.htaccess</h2>
                     <script src="https://gist.github.com/estefanionsantos/7a049045ab8a48dc9b17782c3e7c4889.js"></script>
-                </div>
-
-                <div class="fold">
-                    <h2>Composer</h2>
-                    <p class="mb_1">
-                    execute o: $ <span class="tx_b">composer dump-autoload</span>
-                    </p>
                     <p>
-                    Note: required <span class="tx_b">mod_rewrite</span> enabled
+                        make sure apache is installed and enable Mod_Rewrite:
+                    </p>
+                    <p class="mb_1">
+                    $ <span class="tx_b">a2enmod rewrite</span>
                     </p>
                 </div>
 
@@ -159,9 +155,20 @@
                 </div>
                 <div class="expand">
                 <script src="https://gist.github.com/estefanionsantos/16e73caef60316f60e109165939c8df7.js"></script>
+                <p>
+                 After configuring the project's namespace, run:                   
+                </p>
+                <p class="mb_1">
+                $ <span class="tx_b">composer dump-autoload</span>
+                </p>
+
                 </div>
                 </div>
 
+                <div class="fold">
+                    <h2>src/view/index.php</h2>
+                    <script src="https://gist.github.com/estefanionsantos/9cceebb6557f463dacac2d0e1d007f3e.js"></script>
+                </div>
 
                 <div class="fold">
                     <h2>src/Controller/Index.php</h2>
@@ -175,13 +182,6 @@
                         or any other template engine of your choice
                     </div>
 
-                </div>
-
-                
-
-                <div class="fold">
-                    <h2>src/view/index.php</h2>
-                    <script src="https://gist.github.com/estefanionsantos/9cceebb6557f463dacac2d0e1d007f3e.js"></script>
                 </div>
 
                 <div class="fold">
