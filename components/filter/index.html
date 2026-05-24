@@ -76,25 +76,58 @@
                     <li class="tx_b">Install:</li>
                     <li>$ composer require rubricate/filter </li>
                 </ul>    
-                
             </div>
 
             <div class="fold">
-                <h1 class="mb_1">Example</h1>
-                    <div class="expand mb_1">
-                        Under construction
-                    </div>
-
-                        <div class="row">
-                            <div class="gr gr_md_static fl_c">
-                                <a href="https://github.com/rubricate/filter" class="lk_prm"> 
-                                    <i class="fa-solid fa-code-compare"></i> See Repository
-                                </a>
-                            </div>
-                        </div>
-                </ul>
+                A flexible, lightweight, and object-oriented string filtering and sanitization library.
             </div>
 
+            <div class="fold">
+                <h1 class="mb_1">Usage Examples</h1>
+
+                First, ensure you have your autoloader configured. All filters implement 
+                <strong class="tx_b">Rubricate\Filter\IGetFilter</strong> and expose the 
+                <strong class="tx_b">getFilter(string $value): string</strong> method.
+            </div>
+
+            <div class="x_100">
+                <h1 class="mb_1">Preserve Namespace</h1>
+            </div>
+
+            <div class="fold">
+                <h2 class="mb_1">AlnumFilter</h2>
+                <script src="https://gist.github.com/estefanionsantos/2de94b2e0c89f0ec311fa5fae2c539b9.js"></script>
+            </div>
+
+            <div class="fold">
+                <h2 class="mb_1">AlphaFilter</h2>
+                <script src="https://gist.github.com/estefanionsantos/e8d8e62643bacafc02e562760cab06ce.js"></script>
+            </div>
+            <div class="fold">
+                <h2 class="mb_1">NumFilter</h2>
+                <script src="https://gist.github.com/estefanionsantos/dbb7a2503d0777eeea65764ff4a9ebb4.js"></script>
+            </div>
+            <div class="fold">
+                <h2 class="mb_1">AlnumDashFilter</h2>
+                <script src="https://gist.github.com/estefanionsantos/3dabb233a812c65f28bbd6915d9ed71a.js"></script>
+            </div>
+
+
+            <div class="x_100">
+                <h1 class="mb_1">Word Namespace</h1>
+            </div>
+            <div class="fold">
+                <h2 class="mb_1">ToCamelCaseFilter</h2>
+                <script src="https://gist.github.com/estefanionsantos/6ca648ca1fdd22434aa407af9a856d08.js"></script>
+            </div>
+            <div class="fold">
+                <h2 class="mb_1">FromCamelCaseFilter</h2>
+                <script src="https://gist.github.com/estefanionsantos/5830545f45021c66760fdd0591c4ccd2.js"></script>
+            </div>
+            <div class="fold">
+                <h2 class="mb_1">ReplaceFilter</h2>
+                <script src="https://gist.github.com/estefanionsantos/3b0f80c3a190e731509e5cf81ff1026f.js"></script>
+            </div>
         </div>
 
                 <div class="fold">
